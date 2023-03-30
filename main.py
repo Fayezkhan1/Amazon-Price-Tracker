@@ -15,4 +15,4 @@ soup =BeautifulSoup(r.text,"lxml")
 
 name=soup.select_one(selector="#productTitle").getText()
 name=name.strip()
-print(names)
+print(name)
